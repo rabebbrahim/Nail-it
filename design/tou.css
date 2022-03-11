@@ -1,0 +1,10 @@
+*{
+    background-color: #D6CBCB;
+
+}
+header{
+    height:50px;
+    width: 100%;
+    display: inline-flex;
+
+}

@@ -1,0 +1,56 @@
+:root{
+    --lila: rgb(209, 174, 255);
+}
+
+*{
+	box-sizing: border-box;
+	padding-top: none;
+    padding-bottom: none;
+    margin:0;
+    padding:0;
+    background-color: #E5D7D7;
+}
+
+/**** HEADER ****/
+header{
+
+    
+}
+
+/**** FOOTER ****/
+
+ footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid gray;
+    color: gray;
+}
+
+/*title*/
+#copyright{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/*menu */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerMenu{
+    margin: 0em 1em 2em 1em ;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: var(--lila);
+}
